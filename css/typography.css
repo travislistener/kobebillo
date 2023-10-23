@@ -1,3 +1,106 @@
 body {
-    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
+font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
+}
+
+.nav-title {
+color:#64ffda;
+font-weight: 700;
+font-size: 24px;
+}
+
+.highlighted-link {
+color:#64ffda;
+font-size: 16px;
+font-weight: 500;
+text-decoration: none;
+}
+
+.colored-icon {
+color: #64ffda;
+}
+
+
+.first-title{
+color: #CCD6F6;
+text-decoration: none;
+font-size: 16px;
+font-weight: 700;
+}
+
+.lists-style {
+color: #8892b0;
+text-decoration: none;
+font-size: 14px;
+font-weight: 400;
+}
+
+
+.button-text {
+font-size: 12px;
+font-weight: 700;
+}
+
+.image-caption {
+font-size: 14px;
+font-weight: 500;
+}
+
+.main-title {
+color: #CCD6F6;
+text-decoration: none;
+font-size: 40px;
+font-weight: 700;
+}
+
+.main-description {
+color: #8892b0;
+text-decoration: none;
+font-size: 40px;
+font-weight: 700;
+}
+
+.container {
+font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+}
+
+.number-text{
+color:#64ffda;
+font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+font-size: 20px;
+}
+
+.next-text{
+color:#64ffda;
+font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+font-size: 15px;
+}
+
+.subheader-text {
+color:#CCD6F6;
+font-size: 27px;
+font-weight: 500;
+}
+
+.next-subheader-text {
+color:#CCD6F6;
+font-size: 40px;
+font-weight: 500;
+}
+
+.skill-text {
+color:#CCD6F6;
+font-size: 20px;
+font-weight: 700;
+}
+
+.greet-body-text{
+color: #64ffda;
+font-size: 16px;
+font-weight: 500;
+}
+
+.body-text {
+color: #8892b0;
+font-size: 16px;
+font-weight: 500;
 }
