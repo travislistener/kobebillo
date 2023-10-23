@@ -146,6 +146,11 @@ text-align: center;
 margin: 5px 150px;
 }
 
+.copyright-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
