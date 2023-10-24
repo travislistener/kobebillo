@@ -3,6 +3,7 @@ font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,syste
 }
 
 .nav-title {
+font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
 color:#64ffda;
 font-weight: 700;
 font-size: 24px;
@@ -28,6 +29,7 @@ font-weight: 700;
 }
 
 .lists-style {
+font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
 color: #8892b0;
 text-decoration: none;
 font-size: 14px;
@@ -36,7 +38,8 @@ font-weight: 400;
 
 
 .button-text {
-font-size: 12px;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+font-size: 14px;
 font-weight: 700;
 }
 
@@ -66,7 +69,25 @@ font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
 .number-text{
 color:#64ffda;
 font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
-font-size: 20px;
+font-size: 17px;
+}
+
+.featured-text{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+color:#64ffda;
+font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+font-size: 15px;
+}
+
+.second-featured-text{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+color:#64ffda;
+font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+font-size: 15px;
 }
 
 .next-text{
@@ -94,6 +115,7 @@ font-weight: 700;
 }
 
 .greet-body-text{
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
 color: #64ffda;
 font-size: 16px;
 font-weight: 500;
