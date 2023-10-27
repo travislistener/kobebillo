@@ -108,6 +108,10 @@ left: 0;
 content: ""; /* Remove the icon for the first title */
 }
 
+.text-none{
+  list-style: none;
+}
+
 /*About Section*/
 #about-section {
 display: flex;
