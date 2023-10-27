@@ -109,7 +109,7 @@ content: ""; /* Remove the icon for the first title */
 }
 
 .text-none{
-  list-style: none;
+list-style: none;
 }
 
 /*About Section*/
@@ -139,36 +139,22 @@ gap: 20px;
 }
 
 .project {
-    display: flex;
-    align-items: center;
-    margin: 20px;
-  }
-  
-  .project-header {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .project-image {
-    max-width: 50%;
-    height: auto;
-    margin-right: 20px; /* Add space between image and project details */
-  }
-  
-  /* Your existing CSS classes for styling, e.g., .subheader-text, .project-details-content, .body-text, etc. */
-  
-
-/*
-#project-header {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+display: flex;
+align-items: center;
+margin: 20px;
 }
 
-.project-header-image {
-    width: 100%;
-    height: auto;
-}*/
+.project-header {
+flex: 1;
+padding: 20px;
+}
+
+.project-image {
+max-width: 50%;
+height: auto;
+margin-right: 20px; /* Add space between image and project details */
+}
+
 
 #next-section {
 display: flex;
@@ -184,9 +170,9 @@ text-align: center;
 }
 
 .copyright-content{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+display: flex;
+flex-direction: column;
+text-align: center;
 }
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
@@ -227,6 +213,3 @@ flex-direction: column;
 margin: 125px 20px;
 }
 }
-
-
-
