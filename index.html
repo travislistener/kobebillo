@@ -17,7 +17,7 @@
     <!--NAVIGATION BAR WITH .JS-->
     <div class="navbar">
         <a class="nav-title-link" href="./index.html">
-          <span class="nav-title">travislistener</span>
+          <span class="nav-title">Kobe Billo</span>
           <a class="button" href="./assets/Resume.pdf" target="_blank" rel="noreferrer noopener">
             <span class="button-text">Resume</span>
           </a>
@@ -96,15 +96,14 @@
                 <span class="number-text inline-span">04.</span>
                 <span class="subheader-text inline-span">Some Things I've Built</span>
             <div class="project">
-                <img class="project-image" src="./assets/images/example project.PNG">
+                <img class="project-image" src="./assets/images/multilayer.PNG">
                 <div class="project-header">
                   <div class="project-details">
-                    <span class="second-featured-text">Example Cisco Topology</span>
+                    <span class="second-featured-text">Inter-VLAN Example</span>
                     <div class="subheader-text">Multilayer Switch (w/ External Router) assisted with EtherChannel LACP Load Balancing.</div>
                     <div class="project-details-content">
-                        <div class="body-text">There are a total of 4 VLANs (VLAN 10,20,30,40) which are separated by a Layer 2 Switch and Multilayer Switch. EtherChannel is applied for a traffic distribution by using Flows. An external router is also configured for communicating outside the network.</div>
-                        <span class="second-featured-text">Further Improvements</span>
-                        <div class="body-text">An extra network topology applied with routing protocol such as OSPF is in the making.</div>
+                        <div class="body-text">The configuration file consists of 4 VLANs (VLANs 10,20,30,40). Layer 2 switch has VLANs 10,20,30. Multilayer switch has VLAN 10,40. A Trunk connection between Layer 2 and Multilayer Switch is formed to route traffic from multiple VLANs. The Trunk connection is assisted by an EtherChannel to load-balance the traffic. An additional external network/internet which is configured as a Default Route.</div>
+                        <span class="second-featured-text">Inter-VLAN, EtherChannel, External Router</span>
                     </div>
                   </div>
                 </div>
@@ -113,8 +112,43 @@
               <div class="project">
                 <div class="project-header">
                   <div class="project-details">
+                    <span class="second-featured-text">OSPF Example</span>
+                    <div class="subheader-text">OSPF Area 0 with an ASBR and Loopback Interfaces on each OSPF-enabled Routers.</div>
+                    <div class="project-details-content">
+                        <div class="body-text">An OSPF Area 0 with 4 OSPF-enabled Routers having one (1) Autonomous System Boundary Router that connects OSPF Area 0 to an External Network.</div>
+                        <span class="second-featured-text">OSPF, ASBR, Internal Routers, Intra-Area</span>
+                    </div>
+                  </div>
+                </div>
+                <img class="project-image" src="./assets/images/ospf.png">
+              </div>
+
+              <div class="project">
+                <img class="project-image" src="./assets/images/sysad.PNG">
+                <div class="project-header">
+                  <div class="project-details">
                     <span class="second-featured-text">Featured Project</span>
                     <div class="subheader-text">Systems Administration and Maintenance</div>
+                    <div class="project-details-content">
+                        <div class="lists-container">
+                            <ul class="lists-style">
+                                <li>Managing Domain User via Group Policy Management Console</li>
+                                <li>Managing Domain User via Group Policy Management Console</li>
+                                <li>Established multiple session with the server.</li>
+                                <li>Additional Domain Controller</li>
+                                <li>2-Way Trust-Relationship on Windows Server 2019</li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--
+              <div class="project">
+                <div class="project-header">
+                  <div class="project-details">
+                    <span class="second-featured-text">OSPF Example</span>
+                    <div class="subheader-text">OSPF with an ASBR and Loopback Interfaces on each OSPF-enabled Routers.</div>
                     <div class="project-details-content">
                         <div class="lists-container">
                             <ul class="lists-style">
@@ -128,9 +162,12 @@
                     </div>
                   </div>
                 </div>
-                <img class="project-image" src="./assets/images/vantablack.jpeg">
+                <img class="project-image" src="./assets/images/ospf.png">
               </div>
+            -->
+
               </div>
+
             <div id="next-section">
                 <div>
                     <span class="next-text outline-span">05. What's Next?</span>
