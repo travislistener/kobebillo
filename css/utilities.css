@@ -104,11 +104,9 @@ box-shadow: 0 5px 15px rgba(94, 234, 212, 0.7);
     background-color: rgba(94, 234, 212, 0.075);
     color: #5EEAD4;
     margin-top: 15px;
-    text-decoration: none;
     border-radius: 20px;
     text-align: center;
     font-size: 13px;
-    transition: background-color 0.5s;
 }
 
 /* Footer Styling */
