@@ -87,8 +87,8 @@ margin-right: 20px;
 
 /* Style for list items within each unordered list */
 .lists-style li {
-margin-right: 20px; /* Adjust the margin as needed */
-padding-left: 20px; /* Add space for the icon */
+margin-right: 20px; 
+padding-left: 20px; 
 background-repeat: no-repeat;
 position: relative;
 padding-bottom: 5px;
@@ -105,7 +105,7 @@ left: 0;
 
 /* Style the first title in each list */
 .lists-style .first-title::before {
-content: ""; /* Remove the icon for the first title */
+content: "";
 }
 
 .text-none{
